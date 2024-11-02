@@ -4,8 +4,8 @@ numere - 100 y si es menor a 100 solo debe mostrar el numero. No se podra utiliz
 debe notificar el error existente
 Programa en phyton
 """
-        print("Resultado:", numero)
- numero= int(input("escriba el numero: "))
+
+numero = int(input("Ingrese un número: "))
 resta= numero-100
 
 if numero>=100:
@@ -13,4 +13,4 @@ if numero>=100:
 elif numero<=100 and numero>0:
     print("El valor es: " ,numero)
 else:
-    print("El numero es negativo")       
+    print("El numero es negativo")
